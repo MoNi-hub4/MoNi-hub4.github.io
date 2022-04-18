@@ -6,5 +6,19 @@ div .ul{
     transform: translateX(-100%);
 }
 
+@media only screen and (min-width:1024px){
+    div.ul.menu{
+        transform: none;
+        transition: none;
+        min-width:auto;
+        min-height: auto;
+        position: static;
+    }
+}
+
+div input:focus{
+    border-color: #FFCD58;
+
+}
 
 
