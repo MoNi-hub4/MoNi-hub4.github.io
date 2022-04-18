@@ -1,0 +1,10 @@
+div .ul{
+    transition: all 1s;
+}
+
+.menu{
+    transform: translateX(-100%);
+}
+
+
+
